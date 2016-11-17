@@ -42,7 +42,7 @@ public class SimpleTC_01 extends UnitTestClassBase {
     	// Launch the Chrome browser.
     	Reporter.reportEvent("setUp", "Start Browser");
     	testBrowser = BrowserFactory.launch(BrowserType.FIREFOX);
-    	System.out.println("Browser has been lunched");   	
+    	System.out.println("Browser has been lunched.");   	
     	
     }
 
